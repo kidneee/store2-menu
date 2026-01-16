@@ -1,7 +1,7 @@
 <article class="c-product-card">
     <a href="#" class="c-product-card__link">
         <div class="c-product-card__image">
-            <img src="../assets/images/item1.jpg" width="138" height="138" alt="" class="c-product-card__img">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item1.jpg" width="138" height="138" alt="" class="c-product-card__img">
         </div><!-- /.c-product-card__image -->
         <div class="c-product-card__meta">
             <h3 class="c-product-card__name">プロダクトタイトルプロ

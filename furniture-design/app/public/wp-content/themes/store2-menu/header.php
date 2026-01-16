@@ -6,12 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="robots" content="noindex">
     <title>Furniture Design</title>
-    <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.ico" type="image/x-icon">
     <!-- CSS -->
-    <link rel="stylesheet" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/reset.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/css/style.css">
     <!-- JS -->
-    <script type="module" src="./assets/js/script.js"></script>
+    <script type="module" src="<?php echo get_template_directory_uri(); ?>/assets/js/script.js"></script>
     <!-- Font Awesome -->
     <script src="https://kit.fontawesome.com/60b0ddfc92.js" crossorigin="anonymous"></script>
 </head>
@@ -22,7 +22,7 @@
             <div class="l-header__top">
                 <h1 class="l-header__logo">
                     <a href="./" class="l-haeder__link">
-                        <img src="./assets/images/logo.svg" alt="Furniture Design" width="180" height="20" class="l-header__logo-image">
+                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="Furniture Design" width="180" height="20" class="l-header__logo-image">
                     </a>
                 </h1>
                 <!-- Hamburger Menu Icon -->

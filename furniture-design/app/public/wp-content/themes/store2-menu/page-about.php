@@ -1,7 +1,5 @@
 <!-- Header -->
-<?php
-include('./header.php');
-?>
+<?php get_header(); ?>
 
 <main class="l-main p-about">
     <div class="l-inner">
@@ -22,6 +20,4 @@ include('./header.php');
 </main><!-- /.l-main -->
 
 <!-- Footer -->
-<?php
-include('./footer.php');
-?>
+<?php get_footer(); ?>

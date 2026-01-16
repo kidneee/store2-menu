@@ -7,9 +7,7 @@
             <ul class="p-top__product-list">
                 <!-- ループ処理 -->
                 <li class="p-top__product-item">
-                    <?php
-                    include('./components/product-card.php');
-                    ?>
+                    <?php get_template_part('components/product-card'); ?>
                 </li>
             </ul>
             <a href="./archive-products.php" lang="en" class="p-top__link">View More</a>

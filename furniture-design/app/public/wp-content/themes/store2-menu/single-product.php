@@ -1,7 +1,5 @@
 <!-- Header -->
-<?php
-include('./header.php');
-?>
+<?php get_header(); ?>
 
 <main class="l-main p-product">
     <div class="l-inner">
@@ -11,7 +9,7 @@ include('./header.php');
             </div><!-- /.c-page-heading -->
             <div class="p-product__body">
                 <div class="p-product__image">
-                    <img src="./assets/images/item1.jpg" width="295" alt="" class="p-product__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/item1.jpg" width="295" alt="" class="p-product__img">
                 </div><!-- /.p-product__image -->
                 <div class="p-product__text">
                     <p class="p-product__desc">
@@ -48,6 +46,4 @@ include('./header.php');
 </main><!-- /.l-main -->
 
 <!-- Footer -->
-<?php
-include('./footer.php');
-?>
+<?php get_footer(); ?>
