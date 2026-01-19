@@ -9,11 +9,18 @@
         <div class="p-products__content">
             <ul class="p-products__product-list">
                 <!-- ループ処理 -->
-                <li class="p-products__product-item">
-                    <?php
-                    include('./components/product-card.php');
-                    ?>
-                </li>
+                <?php
+                if (have_posts()) {
+                    while (have_posts()) {
+                        the_post();
+                ?>
+                        <li class="p-top__product-item">
+                            <?php get_template_part('components/product-card'); ?>
+                        </li>
+                <?php
+                    }
+                }
+                ?>
             </ul>
 
             <nav class="c-pagination" aria-label="ページナビゲーション">
