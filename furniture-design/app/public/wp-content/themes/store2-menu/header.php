@@ -36,16 +36,16 @@
                     <nav class="g-nav">
                         <ul class="g-nav__list">
                             <li class="g-nav__item">
-                                <a href="./archive-products.php" lang="en" class="g-nav__link">Products</a>
+                                <a href="<?php echo home_url('/products/'); ?>" lang="en" class="g-nav__link">Products</a>
                             </li>
                             <li class="g-nav__item">
-                                <a href="page-about.php" lang="en" class="g-nav__link">About</a>
+                                <a href="<?php echo home_url('/about/'); ?>" lang="en" class="g-nav__link">About</a>
                             </li>
                             <li class="g-nav__item">
-                                <a href="page-company.php" lang="en" class="g-nav__link">Company</a>
+                                <a href="<?php echo home_url('/company/'); ?>" lang="en" class="g-nav__link">Company</a>
                             </li>
                             <li class="g-nav__item">
-                                <a href="page-contact.php" lang="en" class="g-nav__link">Contact</a>
+                                <a href="<?php echo home_url('/contact/'); ?>" lang="en" class="g-nav__link">Contact</a>
                             </li>
                         </ul>
                     </nav>

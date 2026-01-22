@@ -582,6 +582,12 @@ img {
   align-items: center;
   gap: 0.25rem;
 
+  & input[type='radio'] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+  }
+
   &::before {
     content: '';
     width: 0.75rem;
